@@ -9,9 +9,12 @@
   <h1>ASL Detection</h1>
   <p>This project detects American Sign Language (ASL) gestures using two distinct models:</p>
   <ul>
-    <li><strong>Image-Based Model</strong>: Trained on raw hand gesture images with the help of mobilenetv2.</li>
-    <li><strong>Landmark-Based Model</strong>: Trained on hand landmarks extracted using MediaPipe and CNN architecture.</li>
+    <li><strong>Image-Based Model</strong>: Trained on raw hand gesture images with the help of mobilenetv2 with 90% test accuracy.</li>
+    <li><strong>Landmark-Based Model</strong>: Trained on hand landmarks extracted using MediaPipe and CNN architecture with 94% test accuracy.</li>
   </ul>
+
+  <h2>app.py</h2>
+  <div>UI is made of streamlit which integrate prediction of both image-based model and landmark-base model using ensemble technique by giving weights to each model prediction.</div>
   
   <h2>📁 Image Base Model - contains:</h2>
   <div>hand_sign_model.py</div>
@@ -26,9 +29,10 @@
   <div>y_landmarks.npy</div>
   <div>test_labels.npy</div>
   <div>test_landmarks.npy</div>
-
+  
   <h2>Requirements</h2>
   <ul>
+    <li>Streamlit</li>
     <li>tensorflow==2.18.0</li>
     <li>mediapipe</li>
     <li>opencv-python</li>
