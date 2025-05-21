@@ -1,5 +1,8 @@
-  <h1>ASL Demo</h1>
-  [![Watch the demo](https://img.youtube.com/vi/8eo3xt6L8sA/0.jpg)](https://youtu.be/8eo3xt6L8sA)
+
+  ## 🎥 ASL Detection Demo
+
+[![Watch the demo](https://img.youtube.com/vi/8eo3xt6L8sA/0.jpg)](https://youtu.be/8eo3xt6L8sA)
+
 
 
     
