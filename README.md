@@ -1,8 +1,7 @@
-  <video width="600" controls>
-  <source src="/ASL_DETECTION.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video>
+  <h1>ASL Demo</h1>
+  [![Watch the demo](https://img.youtube.com/vi/8eo3xt6L8sA/0.jpg)](https://youtu.be/8eo3xt6L8sA)
 
+    
   <h1>ASL Detection</h1>
   <p>This project detects American Sign Language (ASL) gestures using two distinct models:</p>
   <ul>
