@@ -9,7 +9,7 @@
   <h1>ASL Detection</h1>
   <p>This project detects American Sign Language (ASL) gestures using two distinct models:</p>
   <ul>
-    <li><strong>Image-Based Model</strong>: Trained on raw hand gesture images with the help of mobilenetv2 with 90% test accuracy.</li>
+    <li><strong>Image-Based Model</strong>: Trained on raw hand gesture images using transfer learning with the help of mobilenetv2 with 90% test accuracy.</li>
     <li><strong>Landmark-Based Model</strong>: Trained on hand landmarks extracted using MediaPipe and CNN architecture with 94% test accuracy.</li>
   </ul>
 
