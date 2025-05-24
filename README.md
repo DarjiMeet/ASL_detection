@@ -33,7 +33,7 @@
   <h2>Requirements</h2>
   <ul>
     <li>Streamlit</li>
-    <li>tensorflow==2.18.0</li>
+    <li>tensorflow</li>
     <li>mediapipe</li>
     <li>opencv-python</li>
     <li>numpy</li>
